@@ -74,7 +74,7 @@ app.get('/films/:id', async (req, res, next) => {
 
 app.get('/health', async (req, res, next) => {
   try {
-    return res.send({ health: true }).status(200);
+    return res.send({ health: true, version: '1.0.0' }).status(200);
   } catch (error) {
     console.error(error);
     next(error);

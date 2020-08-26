@@ -12,5 +12,10 @@ yarn
 yarn start
 ```
 
+# Publicar no Docker (precisa do arquivo Dockerfile)
+```
+docker build -t kennethgaz/star-wars-api:1.0.0 .
+```
+
 # Autor
 Kenneth Gottschalk de Azevedo :)
